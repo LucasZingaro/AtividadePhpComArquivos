@@ -1,0 +1,42 @@
+{
+    "P0":{
+        "nome": "Blocos ceramicos",
+        "valor": 17.99,
+        "img": "img/blocos_ceramicos_300x300.jpg"
+    },
+    "P1":{
+        "nome": "Bloco de concreto",
+        "valor": 24.10,
+        "img": "img/blocos_de_concreto_300x300.jpg"
+    },
+    "P2":{
+        "nome": "Bloco de contreto Celular",
+        "valor": 42.35,
+        "img": "img/blocos_de_concreto2_300x300.jpg"
+    },
+    "P3":{
+        "nome": "Tijolos comuns",
+        "valor": 15.88,
+        "img": "img/tijolos_comuns_300x300.jpg"
+    },
+    "P4":{
+        "nome": "Tijolos de acabamento",
+        "valor": 49.99,
+        "img": "img/tijolos_de_acabamento_300x300.jpg"
+    },
+    "P5":{
+        "nome": "Bloco de gesso",
+        "valor": 110.12,
+        "img": "img/blocos_de_gesso_300x300.webp"
+    },
+    "P6":{
+        "nome": "Blocos para jardim",
+        "valor": 60.75,
+        "img": "img/blocos_para_jardim_vertical_300x300.webp"
+    },
+    "P7":{
+        "nome": "Tijolos ecolégicos",
+        "valor": 89.55,
+        "img": "img/tijolos_ecologicos_300x300.webp"
+    }
+}

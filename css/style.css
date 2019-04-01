@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/03/2019, 13:58:11
+    Author     : Aluno
+*/
+
+body{
+    margin: 0;
+    background: #e5ff7b;
+    /*border: 10px solid #000;*/
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 150px auto 75px;
+    grid-template-areas:
+        "banner"
+        "conteudo"
+        "rodape";
+
+}
+.bloco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.banner{
+    grid-area: banner;
+    font-size: 30px;
+    background-color: #18ff00;
+}
+.conteudo{
+    grid-area: conteudo;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom:  50px solid #FFE161;
+    background-color: #FFE161;
+    min-height: 500px;
+}
+.rodape{
+    background-color: #FF7E00;
+
+    grid-area: rodape;
+}
+#form{
+    min-width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.compras{
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.btn{
+    font-size: 30px;
+    align-content: flex-end;
+}
+
+table{
+    border-collapse: separate;
+    text-align: center; 
+    vertical-align: middle;
+    border:1px solid;
+}
+th{
+    min-width:100px;
+    max-width:300px;
+    font-family: cursive;
+    font-size: 25px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.thck{
+    min-width:20px;
+}
+table td {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+.ck{
+    min-width: 33px;
+    min-height: 33px;
+}
+@media screen and (max-width: 1000px) {
+    img{
+        width: 150px;
+    }
+    body,.bloco,.btn{
+        font-size: 20px;
+    }
+    .conteudo{
+        margin:0%;
+    }
+    .compras{
+        font-size: 17px;
+    }
+    .banner{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 720px) {
+    img{
+        width: 120px;
+    }
+    body,.bloco,.btn{
+        font-size: 15x;
+    }
+    .compras{
+        font-size: 13px;
+    }
+    .banner{
+        font-size: 15px;
+    }
+}
